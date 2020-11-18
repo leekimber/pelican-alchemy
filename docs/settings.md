@@ -106,6 +106,20 @@ Hide the author(s) of an article - useful for single author sites:
 HIDE_AUTHORS = True
 ```
 
+## ADD ATOM/RSS FEED FOR 'AUTHOR'
+
+```
+AUTHOR_FEED_ATOM = 'feeds/{slug}.author.atom.xml'
+```
+
+and/or
+
+```
+AUTHOR_FEED_RSS = 'author/{slug}/feed'
+```
+
+Example string formats above customisable.
+
 ## NEW_FAVICONS
 
 Use a [realfavicongenerator](https://realfavicongenerator.net/blog/new-favicon-package-less-is-more/) favicon package:
